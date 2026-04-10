@@ -5,9 +5,9 @@ import Footer from "../Footer/Footer";
 
 const Header = () => {
     const links = <>
-        <Link href={'totos'}>Todos</Link>
-        <Link href={'posts'}>Posts</Link>
-        <Link href={'foods'}>Foods</Link>
+        <Link href={'/totos'}>Todos</Link>
+        <Link href={'/posts'}>Posts</Link>
+        <Link href={'/foods'}>Foods</Link>
     </>
     return (
         <div>

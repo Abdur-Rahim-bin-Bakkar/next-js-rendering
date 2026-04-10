@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const FoodCard = ({ food }) => {
@@ -15,7 +16,7 @@ const FoodCard = ({ food }) => {
                 <h2 className="card-title">{food.dish_name}</h2>
                 <p>{food.category}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <Link href={`/foods/${food.id}`} className="btn btn-primary">Show Details </Link>
                 </div>
             </div>
         </div>
