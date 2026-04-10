@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <h1>this is heading of main page</h1>
-      <Header/>
-      <Counter/>
+      {/* <Header/> */}
+      {/* <Counter/> */}
       {/* <Footer/> */}
     </div>
   );
