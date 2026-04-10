@@ -6,6 +6,8 @@ import Footer from "../Footer/Footer";
 const Header = () => {
     const links = <>
         <Link href={'totos'}>Todos</Link>
+        <Link href={'posts'}>Posts</Link>
+        <Link href={'foods'}>Foods</Link>
     </>
     return (
         <div>
@@ -26,7 +28,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 gap-3">
                         {links}
                     </ul>
                 </div>
